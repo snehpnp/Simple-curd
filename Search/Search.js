@@ -6,7 +6,7 @@ const router = require("express").Router()
 //Middlewre import
 const { validationMiddleware, verifyToken, upload } = require('../Middleware/middleware')
 
-// parse application/x-www-form-urlencoded
+
 app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
